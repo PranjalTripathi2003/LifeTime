@@ -1,8 +1,22 @@
-# React + Vite
+# LifeTime React App with Sass
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LifeTime is a simple and motivational React web app that calculates and displays your age in seconds, updating in real-time. Embrace the continuous journey of life as you watch the seconds tick away!
 
-Currently, two official plugins are available:
+## Features
+- Real-time age timer
+- Human-readable format (hours, minutes, seconds)
+- Clean and minimalistic design
+- Utilizes Sass for styling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+- React
+- Vite
+- Sass
+
+## Getting Started
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
+4. Open your browser and visit `http://localhost:3000`
+
+Feel free to customize and enhance the app to suit your preferences. Happy LifeTiming!
