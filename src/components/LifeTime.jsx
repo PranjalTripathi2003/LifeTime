@@ -73,7 +73,7 @@ function LifeTime() {
       )}
       <button className="resetButton" onClick={resetPage}>
         Reset
-      </button>
+      </button>Your GitHub Pages site is currently being built from the gh-pages branch
     </div>
   );
 }
