@@ -17,7 +17,7 @@ function LifeTime() {
     setTimer(yearsLived);
     setShowTimer(true);
   };
-
+// RESET FUNCTION FOR THE RESET BUTTON
   const resetPage = () => {
     setBirthdate("");
     setTimer(0);
