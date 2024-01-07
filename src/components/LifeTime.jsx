@@ -9,7 +9,7 @@ function LifeTime() {
 
   const calculateYearsLived = () => {
     const birthDate = new Date(birthdate);
-    const currentDate = new Date(); 
+    const currentDate = new Date();
 
     const millisecondsPerYear = 365.25 * 24 * 60 * 60 * 1000;
     const yearsLived = (currentDate - birthDate) / millisecondsPerYear;
@@ -17,9 +17,8 @@ function LifeTime() {
     setTimer(yearsLived);
 
     setShowTimer(true);
-      
   };
-// RESET FUNCTION FOR THE RESET BUTTON
+  // RESET FUNCTION FOR THE RESET BUTTON
   const resetPage = () => {
     setBirthdate("");
     setTimer(0);
@@ -57,7 +56,7 @@ function LifeTime() {
                 onChange={(e) => setBirthdate(e.target.value)}
               />
               <button type="submit" className="ageButton">
-                Calculate 
+                Calculate
               </button>
             </div>
           </form>
@@ -80,4 +79,4 @@ function LifeTime() {
   );
 }
 
-export default LifeTime
+export default LifeTime;
