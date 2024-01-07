@@ -9,13 +9,15 @@ function LifeTime() {
 
   const calculateYearsLived = () => {
     const birthDate = new Date(birthdate);
-    const currentDate = new Date();
+    const currentDate = new Date(); 
 
     const millisecondsPerYear = 365.25 * 24 * 60 * 60 * 1000;
     const yearsLived = (currentDate - birthDate) / millisecondsPerYear;
 
     setTimer(yearsLived);
+
     setShowTimer(true);
+      
   };
 // RESET FUNCTION FOR THE RESET BUTTON
   const resetPage = () => {
@@ -78,4 +80,4 @@ function LifeTime() {
   );
 }
 
-export default LifeTime;
+export default LifeTime
